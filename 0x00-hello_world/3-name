@@ -1,0 +1,2 @@
+#!/bin/temp
+gcc $CFILE -o cisfun
