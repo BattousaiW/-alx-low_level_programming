@@ -16,7 +16,7 @@ a = 48;
 while (a < 58)
 {
 c = 48;
-while(c < 58)
+while (c < 58)
 {
 if (b != a && b != c && a != c && b < a && a < c)
 {
