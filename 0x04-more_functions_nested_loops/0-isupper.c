@@ -5,7 +5,7 @@
 /**
  * _isupper - checks for upper case letter
  * @c: is a integer value
- * Return: 1 if uppercase character else return 0 
+ * Return: 1 if uppercase character else return 0
  */
 
 int _isupper(int c)
