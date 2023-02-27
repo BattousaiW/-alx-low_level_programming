@@ -8,18 +8,13 @@
 
 void print_line(int n)
 {
-int m;
-m = 0;
-if (n <= 0)
+int i;
+for (i = 0; i < n; i++)
+{
+if (i <= 0)
 {
 _putchar('\n');
 }
-else
-{
-while (m < n)
-{
 _putchar(95);
-m++;
-}
 }
 }
