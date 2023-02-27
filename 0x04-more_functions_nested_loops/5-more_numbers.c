@@ -19,8 +19,11 @@ if(b >= 10)
 {
 _putchar((b/10) + a);
 }
+else
+{
 _putchar((b%10) + 48);
 }
-}
+
 _putchar('\n');
+}
 }
