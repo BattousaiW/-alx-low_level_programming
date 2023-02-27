@@ -9,12 +9,13 @@ void print_numbers(void)
 {
 int a,b;
 
-a = 47;
-b = 57;
+a = 48;
+b = 58;
 
-while(a <= b)
+while(a < b)
 {
 _putchar(a);
+a++;
 }
 _putchar('\n');
 }
