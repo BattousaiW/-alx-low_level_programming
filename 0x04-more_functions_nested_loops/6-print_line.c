@@ -18,7 +18,7 @@ else
 {
 while (m < n)
 {
-_putchar('_');
+_putchar(95);
 m++;
 }
 }
