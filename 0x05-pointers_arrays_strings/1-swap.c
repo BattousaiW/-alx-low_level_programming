@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * swap_int - takes a pointer to a parameter and updates its value.
+ * swap_int - swaps two pointers
  * @a: pointer.
  * @b: pointer.
  * Return: void return.
