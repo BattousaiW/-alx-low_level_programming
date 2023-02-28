@@ -4,15 +4,20 @@
  * @str : string pointer
  * Return : void
 */
-
 void puts_half(char *str)
 {
-int i, len;
-len = _strlen(str);
-len = len / 2;
-for (i = 0;i < len;i++)
+int len = 0, i;
+while (len >= 0)
 {
-_putchar(str[len]);
+if (str[len] == '\0')
+break;
+len++;
 }
+if (len % 2 == 1)
+i = len / 2;
+else
+i = (len - 1) / 2;
+for (i++; i < len; i++)
+_putchar(str[i]);
 _putchar('\n');
 }
