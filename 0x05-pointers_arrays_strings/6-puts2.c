@@ -7,14 +7,18 @@
 
 void puts2(char *str)
 {
-int len, i;
-len =  _strlen(str);
-for (i = 0;i < len ; i++)
+int len = 0;
+while (len >= 0)
 {
-if (i % 2 == 0)
+if (str[len] == '\0')
 {
-_puts(str[i]);
+_putchar('\n');
+break;
 }
-
+if (len % 2 == 0)
+{
+_putchar(str[len]);
+}
+len++;
 }
 }
