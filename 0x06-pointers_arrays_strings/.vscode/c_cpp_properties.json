@@ -5,7 +5,7 @@
             "includePath": [
                 "${workspaceFolder}/**"
             ],
-            "compilerPath": "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30037/bin/Hostx64/x64/cl.exe",
+            "compilerPath": "/usr/bin/gcc",
             "cStandard": "gnu89",
             "cppStandard": "c++98",
             "intelliSenseMode": "windows-gcc-x64",
