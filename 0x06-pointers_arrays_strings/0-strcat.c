@@ -2,9 +2,9 @@
 #include <string.h>
 /**
  * _strcat - a function that combines strings
- * @dest : a string
- * @src : a string
- * Return : pointer to dest is returned
+ * @dest: a string
+ * @src: a string
+ * Return: pointer to dest is returned
 */
 
 char *_strcat(char *dest, char *src)
