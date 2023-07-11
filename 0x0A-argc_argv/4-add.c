@@ -6,6 +6,7 @@
  * Return: If one of the numbers contains chars that are non-digits - 1.Otherwise - 0.
  */
 #include <stdio.h>
+#include <stdlib.h>
 #include "main.h"
 
 int main(int argc, char *argv[])

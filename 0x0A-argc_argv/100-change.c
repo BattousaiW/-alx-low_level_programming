@@ -7,6 +7,10 @@
  * Return: If the number of arguments is not exactly one - 1.
  *         Otherwise - 0.
  */
+#include <stdio.h>
+#include <stdlib.h>
+#include "main.h"
+
 int main(int argc, char *argv[])
 {
 int cents, coins = 0;

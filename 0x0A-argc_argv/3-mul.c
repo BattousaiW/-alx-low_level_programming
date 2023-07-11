@@ -5,6 +5,7 @@
  * Return: If the program receives two arguments - 0. else the program does not receive two arguments - 1.
  */
 #include <stdio.h>
+#include <stdlib.h>
 #include "main.h"
 
 int main(int argc, char *argv[])
