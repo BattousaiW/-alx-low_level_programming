@@ -16,12 +16,9 @@ if (array == NULL)
 {
 return (NULL);
 }
-unsigned int i;
-i = 0;
-while (i < size)
+for (unsigned int i = 0; i < size; i++)
 {
 array[i] = c;
-i++;
 }
 return (array);
 }
