@@ -15,25 +15,31 @@ char *concat;
 int i, c_index = 0, len = 0;
 
 if (s1 == NULL)
-    s1 = "";
-
+{
+s1 = "";
+}
 if (s2 == NULL)
-    s2 = "";
-
+{
+s2 = "";
+}
 for (i = 0; s1[i] || s2[i]; i++)
-    len++;
-
+{
+len++;
+}
 concat = malloc(sizeof(char) * len);
 
 if (concat == NULL)
-    return (NULL);
-
+{
+return (NULL);
+}
 for (i = 0; s1[i]; i++)
-    concat[c_index++] = s1[i];
-
+{
+concat[c_index++] = s1[i];
+}
 for (i = 0; s2[i]; i++)
-    concat[c_index++] = s2[i];
-
+{
+concat[c_index++] = s2[i];
+}
 return (concat);
 }
 
