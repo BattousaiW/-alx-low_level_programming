@@ -16,7 +16,7 @@ if (array == NULL)
 {
 return (NULL);
 }
-unsigned int i = 0;
+int i = 0;
 while (i < size)
 {
 array[i] = c;
@@ -24,3 +24,4 @@ i++;
 }
 return (array);
 }
+
