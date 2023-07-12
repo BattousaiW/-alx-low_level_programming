@@ -16,7 +16,8 @@ if (array == NULL)
 {
 return (NULL);
 }
-int i = 0;
+unsigned int i;
+i = 0;
 while (i < size)
 {
 array[i] = c;
