@@ -36,14 +36,3 @@ memcpy(new_string + len1, s2, len2);
 new_string[len1 + len2] = '\0';
 return (new_string);
 }
-
-
-int main(void)
-{
-    char *concat;
-
-    concat = string_nconcat("Best ", "School !!!", 6);
-    printf("%s\n", concat);
-    free(concat);
-    return (0);
-}
