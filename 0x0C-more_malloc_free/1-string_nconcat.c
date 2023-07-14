@@ -12,6 +12,9 @@
 */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
+
+int len1, len2;
+char *new_string;
 if (s1 == NULL)
 {
 s1 = "";
@@ -20,13 +23,13 @@ if (s2 == NULL)
 {
 s2 = "";
 }
-int len1 = strlen(s1);
-int len2 = n;
+len1 = strlen(s1);
+len2 = n;
 if (n >= strlen(s2))
 {
 len2 = strlen(s2);
 }
-char *new_string = malloc(len1 + len2 + 1);
+new_string = malloc(len1 + len2 + 1);
 if (new_string == NULL)
 {
 return (NULL);
