@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 #include "main.h"
 /**
  *string_nconcat - a function that concatenates two strings.
@@ -34,4 +35,15 @@ memcpy(new_string, s1, len1);
 memcpy(new_string + len1, s2, len2);
 new_string[len1 + len2] = '\0';
 return (new_string);
+}
+
+
+int main(void)
+{
+    char *concat;
+
+    concat = string_nconcat("Best ", "School !!!", 6);
+    printf("%s\n", concat);
+    free(concat);
+    return (0);
 }
