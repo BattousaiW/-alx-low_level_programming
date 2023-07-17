@@ -31,12 +31,13 @@ else
 printf("Age: (nil)\n");
 }
 
-if (d->owner != NULL)
-{
-printf("Owner : %s\n", d->owner);
-}
-else
+if (d->owner == NULL)
 {
 printf("Owner: (nil)\n");
 }
+else
+{
+printf("Owner : %s\n", d->owner);
+}
+
 }
