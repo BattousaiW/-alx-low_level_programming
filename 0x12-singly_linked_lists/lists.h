@@ -2,7 +2,7 @@
 #define LISTS_H
 #include <stdlib.h>
 
-typedef struct node
+typedef struct list_t
 {
 	char *str;
 	unsigned int len;

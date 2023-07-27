@@ -3,21 +3,18 @@
 /**
  * print_list- prints a list of nodes
  * @h: list to be printed
- * Return: return nodes
+ * Return: return count
 */
 
 size_t print_list(const list_t *h)
 {
-size_t nodes = 0;
-while (h)
+size_t count = 0;
+const list_t *current = h;
+while (current != NULL)
 {
-if (h->str == NULL)
-printf("[0] (nil)\n");
-
-else
-printf("[%d] %s\n", h->len, h->str);
-nodes++;
-h = h->next;
+printf("[%zu] %s\n", count, current->str);
+count++;
+current = current->next;
 }
-return (nodes);
+return (count);
 }
