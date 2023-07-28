@@ -2,6 +2,13 @@
 #define LISTS_H
 #include <stdlib.h>
 
+/**
+ * struct list_s- struct that creates a node
+ * @str: char string
+ * @len: str length
+ * @next: pointer to next node
+*/
+
 typedef struct list_s
 {
 char *str;
