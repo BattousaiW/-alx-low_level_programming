@@ -1,10 +1,8 @@
-
 #include "main.h"
-
 /**
  * set_bit - function sets the value of a bit at a given index to 1.
  * @n: A pointer to the bit.
- * @index: The index to set the value 
+ * @index: The index to set the value
  *
  * Return: If an error occurs - -1.
  *         else - 1.
