@@ -12,8 +12,9 @@ int len;
 val = 0;
 i = 1;
 
-if (*b == '\0')
+if (*b == '\0' || *b > '1')
 return (0);
+
 
 for (len = 0; b[len];)
 len++;
