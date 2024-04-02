@@ -8,7 +8,6 @@
  * @value: Value being searched
  *
  * Return: Index where value is located
- * 
  */
 int _binary_search(int *array, size_t l, size_t r, int value)
 {
@@ -43,8 +42,6 @@ int _binary_search(int *array, size_t l, size_t r, int value)
  * @value: Value being searched
  *
  * Return: First index where value found
- * -1 if value not found or NULL array
- *  Prints every time value in array compared to search value
  */
 int exponential_search(int *array, size_t size, int value)
 {
