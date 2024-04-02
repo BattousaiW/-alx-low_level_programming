@@ -8,8 +8,7 @@
  * @value: Value being searched
  *
  * Return: Index where value is located
- * -1 if value not present or array is NULL
- * Prints array being searched every time it changes
+ * 
  */
 int _binary_search(int *array, size_t l, size_t r, int value)
 {

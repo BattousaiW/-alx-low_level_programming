@@ -7,8 +7,6 @@
  * @value: Value to search
  *
  * Return: First index where value is found
- * -1 if value not in array or array is NULL
- *  Print value every time comparing value to that being searched for
  */
 int linear_search(int *array, size_t size, int value)
 {

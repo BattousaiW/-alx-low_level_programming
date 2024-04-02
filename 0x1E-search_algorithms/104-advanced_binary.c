@@ -7,7 +7,7 @@
  * @value: Value being searched for
  *
  * Return: Index where value found
- * -1 if value not found or NULL array
+ * 
  */
 int advanced_binary(int *array, size_t size, int value)
 {

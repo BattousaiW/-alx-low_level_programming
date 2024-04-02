@@ -9,7 +9,6 @@
  *
  * Return: Pointer to first node where value is located
  * NULL if value not found in head or head is NULL
- * Print value of list every time compared with search value
  */
 listint_t *jump_list(listint_t *list, size_t size, int value)
 {

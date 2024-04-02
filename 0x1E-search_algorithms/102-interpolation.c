@@ -7,8 +7,8 @@
  * @value: Value being searched for
  *
  * Return: First index where value found
- * -1 if value not found or NULL array
- * Print every time value in array being compared to search value
+ * 
+ * 
  */
 int interpolation_search(int *array, size_t size, int value)
 {
